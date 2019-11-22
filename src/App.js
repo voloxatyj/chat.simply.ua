@@ -9,10 +9,10 @@ class App extends Component {
     return (
       <div id="container">
         <Sidebar />
-        <section id="main">
-          <MessagesList />
-          <AddMessage />
-        </section>
+          <section id="main">
+            <MessagesList />
+            <AddMessage />
+          </section>
       </div>
     );
   }

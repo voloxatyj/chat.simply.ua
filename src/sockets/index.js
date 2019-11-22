@@ -19,7 +19,7 @@ const setupSocket = (dispatch, username) =>{
 			case types.ADD_USER:
 				dispatch(addUser(data.name))
 				break
-			case types.USER_LIST:
+			case types.USERS_LIST:
 				dispatch(populateUsersList(data.users))
 				break
 			default:

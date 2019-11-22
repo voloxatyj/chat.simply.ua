@@ -7,7 +7,7 @@ const users = (state=[],action)=>{
     id: action.id,
     name: action.name
    }]);
-   case types.USER_LIST:
+   case types.USERS_LIST:
     return action.users
    default:
     return state
