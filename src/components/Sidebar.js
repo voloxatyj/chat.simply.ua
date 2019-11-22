@@ -1,9 +1,8 @@
 import React from 'react';
 
-const Sidebar = ({ users, callback }) => (
+const Sidebar = ({ users }) => (
   <aside id='sidebar' className='sidebar'>
     <ul>
-      {/* {console.log(callback)} */}
       {users.map(user => (
         <li key={user.id}>{user.name}</li>
       ))}
